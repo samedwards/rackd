@@ -1,0 +1,1 @@
+web: gunicorn rackd.wsgi --workers $WEB_CONCURRENCY
